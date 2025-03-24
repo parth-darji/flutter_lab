@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'dart:ui' as ui;
-
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 
 class DrawingScreen extends StatefulWidget {
+  const DrawingScreen({super.key});
+
   @override
-  _DrawingScreenState createState() => _DrawingScreenState();
+  State<DrawingScreen> createState() => _DrawingScreenState();
 }
 
 class _DrawingScreenState extends State<DrawingScreen> {
